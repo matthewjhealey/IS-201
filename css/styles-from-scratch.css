@@ -1,0 +1,113 @@
+.headback {
+  position: relative;
+  padding-top: 195px;
+  padding-bottom: 195px;
+  padding-right: 150px;
+  padding-left: 150px;
+  background: no-repeat center center;
+  background-size: cover;
+}
+.headback:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  background-color: #242424;
+}
+.heading {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  font-family: "Open Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 100px;
+  font-weight: bold;
+}
+.subheading {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  font-size: 48px;
+  opacity: 300%;
+  font-weight: 450;
+}
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+}
+li {
+  font-size: 18px;
+  font-weight: normal;
+}
+.padding {
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left: 25%;
+  padding-right: 22%;
+}
+.footer {
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.right-text-container {
+  position: absolute;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: 15px;
+  right: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.left-text-container {
+  position: absolute;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: 15px;
+  left: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+div a {
+  color: white;
+  text-decoration: none;
+}
+img {
+margin: auto;
+display: block;
+}
+.backtotop {
+  color: rgb(0, 19, 124);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.backtotop:hover {
+  color: rgb(69, 69, 255);
+}
+ol>li::marker {
+  font-weight: bold;
+  font-size: 30px;
+}
